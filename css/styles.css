@@ -81,7 +81,7 @@ nav li a {
     margin-bottom: 30px;
     transition: background-color 1s;
     width: 50%;
-    animation: fadeOut 3s ease-in
+    animation: fadeOut 7s ease-in
 }
 
 @keyframes fadeOut{
