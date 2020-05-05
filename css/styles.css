@@ -100,8 +100,11 @@ nav li a {
 }
 
 .youtube {
-    margin-top: 3px;
-    padding: 15px;
+    margin-top: 10px;
+}
+
+iframe {
+    width: 332px;
 }
 
 .charity {
@@ -156,7 +159,10 @@ footer {
     .navList li a {
         justify-self: end;
     }
-
     
+    iframe {
+        width: 560px;
+        height: 340px;
+    }
         
 }
