@@ -1,0 +1,20 @@
+main page 
+Simple countdown and Mistfits Logo
+Countdown to most recent Event
+Get Tickets button "Buy presale ticket here"
+
+	- Events
+		Countdown to most recent Event
+	-The Beginning?? 
+		(mission Statement)
+	- Merchandise-
+			- Jewelry (silent Auction) - Potter's Artful Glass  
+			- Skate Boards - ??
+			- Clothing - Rozline Collection
+	- Bios - Meet Our Team
+	- Sponsors
+	- Purchasing Page - Paypal Account to pay to
+	
+
+
+Launch with Home page and Meet Our Team and the Beginning
