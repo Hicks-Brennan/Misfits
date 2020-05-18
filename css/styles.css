@@ -2,7 +2,7 @@ body {
     height: 100%;
     background-image: linear-gradient(225deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
     background-repeat: no-repeat;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .content {
