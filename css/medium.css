@@ -53,6 +53,10 @@
        width: 400px;
        height: 200px;
    }
+
+   #name {
+       font-size: 75px;
+   }
     
 
     /* header {
