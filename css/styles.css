@@ -50,7 +50,7 @@ body{
 }
 
 
-p{
+#headline {
     margin-top: -10px;
     margin-bottom: .7em;
     font-size: .75em;
@@ -62,7 +62,11 @@ p{
     color: #5c9576;
 }
 
-
+#name {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+}
 
 
 /* 
