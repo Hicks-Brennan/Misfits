@@ -49,8 +49,15 @@ body{
     padding-right: 40px;
 }
 
+
 p{
     margin-bottom: .4em;
+}
+
+.subscribe {
+    padding: 20px;
+    background-color: rgb(211, 255, 211);
+    color: #5c9576;
 }
 
 
@@ -108,7 +115,7 @@ iframe {
     
 }
 
-footer, .listenButton{
+footer, .listenButton, .subscribe {
     border: .75px solid  rgb(211, 255, 211);
     border-radius: 10px;
     text-align: center;

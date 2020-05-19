@@ -27,13 +27,14 @@
     #overlay {
         display: grid;
         grid-template-columns: 300px 300px;
-        grid-template-rows: 100px 75px 300px;
+        grid-template-rows: 100px 75px 75px 300px;
         grid-gap: 1em;
     }
 
-    .title {
+    .title, .subscribeGrid {
         grid-column-start: 1;
         grid-column-end: 3;
+        text-align: center;
     }
 
    .listenButton {
@@ -41,8 +42,14 @@
         align-self: center;
    }
 
+
+   .subscribe {
+       
+   }
+
    .youtube {
        grid-column: 1 / -1;
+       grid-row: 4;
        justify-self: center;
        align-self: center;
    }
