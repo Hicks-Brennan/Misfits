@@ -1,6 +1,15 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 600px){
+    html,body {
+        height: 100%;
+        overflow-x: hidden;
+        font-size: 1.25em;
+    }
+
     html {
-        background-image: url(../background-medium.png);
+        background:linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url(../background-medium.png);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
@@ -14,6 +23,35 @@
     .sippinWhiskey {
         background-image: none;
     }
+
+    #overlay {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 100px 75px 300px;
+        grid-gap: 1em;
+    }
+
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+   .listenButton {
+        margin: 0;
+        align-self: center;
+   }
+
+   .youtube {
+       grid-column: 1 / -1;
+       justify-self: center;
+       align-self: center;
+   }
+    
+   iframe {
+       width: 400px;
+       height: 200px;
+   }
+    
 
     /* header {
         display: grid;
@@ -42,10 +80,11 @@
         justify-self: end;
     } */
     
+  
+
+    .socialMedia h3 {
+        margin-top: 0;
     
-
-    footer {
-
     }
         
 }

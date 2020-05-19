@@ -35,12 +35,13 @@ body{
     color: inherit;
 }
 
-a:hover, h2:hover {
+.sippingWhiskey a:hover, h2:hover {
     background-color: rgb(211, 255, 211);
     color: #5c9576;
 }
 
 .listenButton {
+    font-size: 1.2em;
     margin: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -97,9 +98,14 @@ nav li a {
 
 } */
 
+iframe {
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px black;
+}
 
 .youtube {
     margin-top: 10px;
+    
 }
 
 footer, .listenButton{
@@ -111,6 +117,7 @@ footer, .listenButton{
 
 footer {
     margin: 0 auto;
+    margin-top: 10px;
     margin-bottom: 10px;
     max-width: 75%;
     padding: 20px;
