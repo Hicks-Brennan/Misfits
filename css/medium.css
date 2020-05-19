@@ -1,0 +1,45 @@
+@media only screen and (min-width: 60em){
+    html {
+        background-image: url(../background-medium.png);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sippinWhiskey {
+        background-image: none;
+    }
+
+    /* header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+
+    .navList li:first-child {
+        display: none; 
+    }
+
+    .navList ul{
+        list-style-type: none;
+    }
+    .navList li {
+        display: inline;
+        padding: 10px;
+    }
+
+    .navList a:hover {
+        color: white;
+    }
+
+    .navList li a {
+        justify-self: end;
+    } */
+    
+    iframe {
+        width: 560px;
+        height: 340px;
+    }
+        
+}
