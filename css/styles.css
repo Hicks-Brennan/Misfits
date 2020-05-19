@@ -1,19 +1,58 @@
 html {
-    background-color: rgb(51, 123, 83);
+    background-color: #5c9576;
     font-family: 'Muli', sans-serif;
 }
 
+body{
+    margin: 0;
+    color: rgb(211, 255, 211);
+}
+
 .sippinWhiskey {
-    height: 100%;
-    background-image: url("../background-small.png");
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../background-small.png");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
-    max-width: 767px;
+    padding: 40px;
     margin: 0 auto;
     text-align: center;
 }
+
+.sippinWhiskey h1,p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.sippinWhiskey h1 {
+    font-size: 2.5em;
+}
+
+.sippinWhiskey a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, h2:hover {
+    background-color: rgb(211, 255, 211);
+    color: #5c9576;
+}
+
+.listenButton {
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+p{
+    margin-bottom: .4em;
+}
+
+
 
 
 /* 
@@ -63,26 +102,41 @@ nav li a {
     margin-top: 10px;
 }
 
-iframe {
-    width: 332px;
+footer, .listenButton{
+    border: .75px solid  rgb(211, 255, 211);
+    border-radius: 10px;
+    text-align: center;
+    
 }
 
 footer {
     margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 75%;
+    padding: 20px;
 }
 
-footer ul{
+footer img {
+    width: 2.5em;
+}
+
+.socialMedia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* padding-inline-start: 0px; */
+    justify-content: center;
 }
 
-.socialMedia li{
-    list-style-type: none;
-    margin: 10px;
+.facebook {
+    justify-self: center;
+}
+.instagram {
+    justify-self: center;
+}
+.twitter {
+    justify-self: center;
+}
+.youtubeSm {
+    justify-self: center;
 }
 
-.socialMedia img {
-    max-width: 50%;
-}
 

@@ -2,4 +2,8 @@
     html {
         background-image: url(../background.png);
     }
+
+    body {
+        max-width: 1400px;
+    }
 }

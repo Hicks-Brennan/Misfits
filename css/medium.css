@@ -1,9 +1,14 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 32.5em){
     html {
         background-image: url(../background-medium.png);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
+        background-color: none;
+    }
+
+    body {
+        float: right;
     }
 
     .sippinWhiskey {
@@ -37,9 +42,10 @@
         justify-self: end;
     } */
     
-    iframe {
-        width: 560px;
-        height: 340px;
+    
+
+    footer {
+
     }
         
 }
