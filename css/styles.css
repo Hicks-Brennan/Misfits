@@ -148,6 +148,10 @@ footer img {
     margin-top: 20px;
 }
 
+footer h2 {
+    margin-bottom: 10px;
+}
+
 hr {
     border-color: rgb(211, 255, 211);
 }
