@@ -70,6 +70,7 @@ body{
     padding: 20px;
     background-color: rgb(211, 255, 211);
     color: #5c9576;
+    box-shadow: 10px 10px 8px #0b110e;
 }
 
 #name {
@@ -122,7 +123,7 @@ nav li a {
 
 } */
 
-iframe {
+iframe { 
     border-radius: 10px;
     box-shadow: 10px 10px 8px #0b110e;
 }
