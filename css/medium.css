@@ -3,17 +3,6 @@
         overflow-x: hidden;
         font-size: 1.25em;
     }
-
-    body {
-        background:linear-gradient(
-            rgba(0, 0, 0, 0.35),
-            rgba(0, 0, 0, 0.35)
-          ), url(../background2.jpg);
-        background-position: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: none;
-    }
     
     .home {
         top: .5em;
@@ -102,17 +91,4 @@
     
     }
         
-}
-
-@media only screen and (min-width: 1000px) {
-   body {
-    background:linear-gradient(
-        rgba(0, 0, 0, 0.35),
-        rgba(0, 0, 0, 0.35)
-      ), url(../background2.jpg);
-      background-position: left;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color: none;
-   }
 }
