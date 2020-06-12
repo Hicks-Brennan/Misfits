@@ -6,8 +6,8 @@
 
     body {
         background:linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
           ), url(../background-medium.jpg);
         background-position: left;
         background-size: cover;
@@ -107,8 +107,8 @@
 @media only screen and (min-width: 1000px) {
    body {
     background:linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
       ), url(../background.jpg);
       background-position: left;
       background-size: cover;
