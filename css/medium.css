@@ -8,7 +8,7 @@
         background:linear-gradient(
             rgba(0, 0, 0, 0.35),
             rgba(0, 0, 0, 0.35)
-          ), url(../background-medium.jpg);
+          ), url(../background2.jpg);
         background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
@@ -109,7 +109,7 @@
     background:linear-gradient(
         rgba(0, 0, 0, 0.35),
         rgba(0, 0, 0, 0.35)
-      ), url(../background.jpg);
+      ), url(../background2.jpg);
       background-position: left;
       background-size: cover;
       background-repeat: no-repeat;
