@@ -8,7 +8,7 @@
         background: linear-gradient(
             rgba(0, 0, 0, 0.35),
             rgba(0, 0, 0, 0.35)
-          ), url("../background2.jpg");
+          ), url("../background2-mobile.jpg");
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
