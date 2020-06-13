@@ -179,5 +179,9 @@ hr {
 .youtubeSm {
     justify-self: center;
 }
-
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 
