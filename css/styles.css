@@ -28,7 +28,7 @@ body{
     background-size: cover;
     padding: 40px;
     margin: 0 auto;
-    text-align: right;
+    text-align: center;
 }
 
 .sippinWhiskey h1,p {
@@ -51,9 +51,12 @@ body{
 }
 
 .listenButton {
-    margin: 20px;
-    padding: 10px 40px 10px 40px;
-    background-color: rgba(92, 149, 118, .3);
+    font-size: 1.2em;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 
@@ -68,12 +71,10 @@ body{
     background-color: rgb(211, 255, 211);
     color: #5c9576;
     box-shadow: 10px 10px 8px #0b110e;
-    margin-top: 1.5em
 }
 
 #name {
     margin-top: 20px;
-    margin-bottom: .75em;
     font-family: 'Tangerine', cursive;
     font-size: 50px;
     font-weight: 100;
@@ -129,7 +130,6 @@ iframe {
 
 .youtube {
     margin-top: 10px;
-    margin-right: 1em;
     
 }
 
@@ -179,13 +179,5 @@ hr {
 .youtubeSm {
     justify-self: center;
 }
-.links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-}
 
-.subscribeGrid {
-    grid-column: 1 / 3;
-}
 
