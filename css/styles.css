@@ -42,7 +42,7 @@ body{
 
 .sippinWhiskey a {
     text-decoration: none;
-    color: inherit;
+    color: rgba(211, 255, 211, .5);
 }
 
 .sippinWhiskey h2:hover {
@@ -50,20 +50,37 @@ body{
     color: #5c9576;
 }
 
-.listenButton {
-    font-size: 1.2em;
-    margin: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+.empty {
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
+.listenButton h2{
+}
+
+#listen{ 
+    
+    grid-column: 2 /4;
+    align-self: start;
+    grid-row: 2;
+}
+
+#lyric {
+    align-self: end;
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
 
 #headline {
     margin-top: -10px;
     margin-bottom: .7em;
     font-size: .75em;
+}
+
+.subscribeGrid {
+    grid-column: span 2/4;
+    grid-row:3;
 }
 
 .subscribe {
