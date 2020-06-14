@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px){
+/* @media only screen and (min-width: 700px){
     html,body {
         overflow-x: hidden;
         font-size: 1.25em;
@@ -26,7 +26,7 @@
 
     #lyric {
         grid-column: 2;
-        
+
     }
 
     .content {
@@ -111,4 +111,4 @@
     
     }
         
-}
+} */
