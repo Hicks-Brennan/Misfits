@@ -19,6 +19,16 @@
         font-size: .85em;
     }
 
+    #listen {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #lyric {
+        grid-column: 2;
+        
+    }
+
     .content {
         float: right;
     }
